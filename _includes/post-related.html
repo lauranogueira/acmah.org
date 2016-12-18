@@ -1,4 +1,4 @@
-<h2>Related posts</h2>
+<h2>{{ site.locales.related_posts[site.active_lang] }}</h2>
 <ul class="list  list--posts">
   {% for page in site.related_posts limit: 3 %}
     <li class="item  item--post">

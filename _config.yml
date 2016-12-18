@@ -132,3 +132,9 @@ locales:
   about_desc:
     ca: Som una entitat sense ànim de lucre, amb un projecte associatiu que té com a eix principal el treball amb les famílies que conviuen amb afectats per la malaltia de Huntington.
     es: Somos una entidad sin animo de lucro, con un proyecto asociativo que tiene  como eje principal  el trabajo con las familias que conviven con afectados por la enfermedad de Huntington.
+  related_posts:
+    ca: Articles relacionats
+    es: Articulos relacionados
+  latest_posts:
+    ca: Últims articles publicats
+    es: Últimos articulos publicados
