@@ -74,25 +74,25 @@ defaults:
       type: pages
     values:
       layout: page # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
+      image: "assets/placeholder-social.png" # Default image for sharing
   -
     scope:
       path: ""
       type: posts
     values:
       layout: post # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
+      image: "assets/placeholder-social.png" # Default image for sharing
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "ACMAH" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/acmah-logo.png" # Site logo, also used in jekyll-seo-tag
+logo: "assets/acmah-logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
 url: "https://ghmap.github.io/jekyll-alembic" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/ghmap/acmah"
 email: "marc.alcala@gmail.com"
 disqus: "acmah-1"
-avatarurl: "/assets/favicon.ico" # "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "assets/favicon.ico" # "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
