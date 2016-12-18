@@ -4,7 +4,7 @@
     {% for item in site.navigation_header %}
     	{% assign item_name = item[0] %}
 	<li class="item  item--nav{% if item[1] == page.url %}  item--current{% endif %}">
-	      <a href="{{ item[1] | prepend: site.github.url }}">{{item_name}} {{ site.navigation_header_locales[item_name][site.active_lang] }}</a>
+		<a href="{{ item[1] | prepend: site.github.url }}">{{item_name}} {{ page.url }} {{ site.navigation_header_locales[item_name][site.active_lang] }}</a>
 	</li>
     {% endfor %}
 
