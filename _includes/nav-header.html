@@ -10,7 +10,7 @@
 
     {% for lang in site.languages %}
       <li class="item  item--nav{% if lang == site.active_lang %}  item--current{% endif %}">
-	      <a href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}}{% endif %}">{{ lang }}</a>
+	      <a href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}}{% else %} {{site.baseurl}}/{{ lang }}{{page.url}}{% endif %}">{{ lang }}</a>
       </li>
     {% endfor %}
   </ul>
