@@ -97,9 +97,9 @@ avatarurl: "assets/favicon.ico" # "https://www.gravatar.com/avatar/6c0377abcf4da
 # 8. Site navigation
 navigation_header:
   Home: /
-  Services: /services/
-  #  Element: /elements/
-  Blog: /blog/
+  Services: services/
+  #  Element: elements/
+  Blog: blog/
 navigation_header_locales:
   Home:
           ca: Inici
