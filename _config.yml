@@ -88,8 +88,8 @@ encoding: utf-8 # Make sure the encoding is right
 title: "ACMAH" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/acmah-logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "https://acmah.org" # Site url, also used in jekyll-seo-tag
-#baseurl: "/acmah.org"
+url: "https://ghmap.github.io" # Site url, also used in jekyll-seo-tag
+baseurl: "/acmah.org"
 github:
   url: https://ghmap.github.io/acmah.org # Site url, also used in jekyll-seo-tag. Automatically overriden by github pages
 repo: "https://github.com/ghmap/acmah"
