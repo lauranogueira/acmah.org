@@ -1,10 +1,11 @@
 ---
-title: About Alembic
+title: ACMAH
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
+  ## ACMAH
+  Associació Catalana de la Malaltia de Huntington
 feature_image: "https://unsplash.it/1300/400?image=971"
 image: "https://unsplash.it/600/400?image=971"
+lang: ca
 ---
 
 Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
