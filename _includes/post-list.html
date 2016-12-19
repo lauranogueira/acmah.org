@@ -1,7 +1,13 @@
 {% if paginator.posts %}
-
 	<ul class="list  list--posts">
 		{% for page in paginator.posts %}
+
+		<!-- filter by lang 
+		{% if page.lang != site.active_lang %}
+		  {% continue %}
+		{% endif %}
+		-->
+
 			<li class="item  item--post">
 				<article class="article  article--post  typeset">
 
@@ -18,7 +24,20 @@
 {% else %}
         <h2>{{ site.locales.latest_posts[site.active_lang] }}</h2>
 	<ul class="list  list--posts">
-		{% for page in site.posts limit: 4 %}
+                {% assign post_count = 0 %}
+		{% for page in site.posts %}
+
+		<!-- filter by lang -->
+		{% if page.lang != site.active_lang %}
+		  {% continue %}
+		{% endif %}
+
+		<!-- only 4 posts -->
+                {% assign post_count = post_count + 1 %}
+                {% if post_count > 4 %}
+                  {% break %}
+                {% endif %}
+
 			<li class="item  item--post">
 				<article class="article  article--post  typeset">
 

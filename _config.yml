@@ -87,12 +87,12 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 title: "ACMAH" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/acmah-logo.png" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "Som una entitat sense ànim de lucre, amb un projecte associatiu que té com a eix principal el treball amb les famílies que conviuen amb afectats per la malaltia de Huntington." # Site description and default description, also used in jekyll-seo-tag
 url: "https://ghmap.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: "/acmah.org"
 github:
   url: https://ghmap.github.io/acmah.org # Site url, also used in jekyll-seo-tag. Automatically overriden by github pages
-repo: "https://github.com/ghmap/acmah"
+repo: "https://github.com/ghmap/acmah.org"
 email: "marc.alcala@gmail.com"
 disqus: "acmah-1"
 avatarurl: "/assets/favicon.ico" # "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
