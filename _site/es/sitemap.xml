@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/acmah.org/general/2016/12/19/test2/</loc>
+<loc>https://ghmap.github.io/acmah.org/general/2016/12/19/test2/</loc>
 <lastmod>2016-12-19T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/acmah.org/general/2016/12/19/test1/</loc>
+<loc>https://ghmap.github.io/acmah.org/general/2016/12/19/test1/</loc>
 <lastmod>2016-12-19T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/acmah.org/general/2016/12/19/test/</loc>
+<loc>https://ghmap.github.io/acmah.org/general/2016/12/19/test/</loc>
 <lastmod>2016-12-19T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/acmah.org/elements/</loc>
+<loc>https://ghmap.github.io/acmah.org/elements/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/acmah.org/</loc>
+<loc>https://ghmap.github.io/acmah.org/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/acmah.org/blog/</loc>
+<loc>https://ghmap.github.io/acmah.org/blog/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/acmah.org/services/</loc>
+<loc>https://ghmap.github.io/acmah.org/services/</loc>
 </url>
 </urlset>
