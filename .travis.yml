@@ -5,6 +5,12 @@ rvm:
 
 script: ./script/cibuild.sh
 
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - main     # test the gh-pages branch
+  - dev
+
 sudo: false
 
 env:
